@@ -7,11 +7,11 @@ Hem realitzat aquest exercici pràctic en el marc de l'assignatura de Tipologia 
 
 # Membres de l' equip
 
-L' actividad ha estat realitzada de manera conjunta per Aleix Borrella Colomé i Albert Gil Devesa.
+L'activitat ha estat realitzada de manera conjunta per Aleix Borrella Colomé i Albert Gil Devesa.
 
 # Scripts:
 
-- *Scripts/main.py*: Primerament executa el "get_urls.py" per tenir una llista de totes les urls corresponents a categories finals. Un cop ja té totes les urls, executa "scraper.py" per capturar tota la informació referent als productes trobats. Finalment concatena tota la informació i ho guarda com a arxiu '.csv' amb data del dia en que s'ha realitzat la captura.
+- Scripts/main.py: Primerament executa el "get_urls.py" per tenir una llista de totes les urls corresponents a categories finals. Un cop ja té totes les urls, executa "scraper.py" per capturar tota la informació referent als productes trobats. Finalment concatena tota la informació i ho guarda com a arxiu '.csv' amb data del dia en que s'ha realitzat la captura.
 
 - Scrips/get_urls.py: Navega a través de les categories de Bonpreu-Esclat cercant totes les urls amb categories finals, i retorna una llista amb totes les urls finals.
 
@@ -35,24 +35,28 @@ L' actividad ha estat realitzada de manera conjunta per Aleix Borrella Colomé i
 # Arxius csv:
 
 Conté varies mostres preses durant la setmana del 02/11/2020 al 06/11/2020:
-csv_files/20201102_BP_dataset.csv: Mostra corresponent al 02/11/2020.
-csv_files/20201103_BP_dataset.csv: Mostra corresponent al 03/11/2020.
-csv_files/20201104_BP_dataset.csv: Mostra corresponent al 04/11/2020.
-csv_files/20201105_BP_dataset.csv: Mostra corresponent al 05/11/2020.
-csv_files/20201106_BP_dataset.csv: Mostra corresponent al 06/11/2020.
-Arxiu final obtingut executant concat.py (tots els arxius han d'estar al mateix directori)
-BP_dataset.csv
-Recursos:
+    - Dataset/20201102_BP_dataset.csv: Mostra corresponent al 02/11/2020.
+    - Dataset/20201103_BP_dataset.csv: Mostra corresponent al 03/11/2020.
+    - Dataset/20201104_BP_dataset.csv: Mostra corresponent al 04/11/2020.
+    - Dataset/20201105_BP_dataset.csv: Mostra corresponent al 05/11/2020.
+    - Dataset/20201106_BP_dataset.csv: Mostra corresponent al 06/11/2020.
+    - Dataset/Datasets_setmanals.zip: Arxiu comprimit que conté els 5 arxius .csv anteriors per tal d'agilitzar-ne la descarrega
+    
+Arxiu final obtingut executant concat.py (tots els arxius han d'estar al mateix directori):
+    - BP_dataset.csv
+    
+# Recursos:
 
-# Apunts proporcionats en l’aula
+Apunts proporcionats en l’aula:
 
-El llenguatge Python - David Masip Rodó
-Web Scraping - Laia Subirats Maté i Mireia Calvo González
-Web Scraping with Python – Chapter 2: Scraping the data – Lawson, R
-Automated Data Collection with R – S. Munzert, C. Rubba, P. Meibner i D. Nyhuis
-També hem emprat altres recursos:
+    - El llenguatge Python - David Masip Rodó
+    - Web Scraping - Laia Subirats Maté i Mireia Calvo González
+    - Web Scraping with Python – Chapter 2: Scraping the data – Lawson, R
+    - Automated Data Collection with R – S. Munzert, C. Rubba, P. Meibner i D. Nyhuis
 
-Web scraping for food price research - Judith Hille
-https://towardsdatascience.com/how-to-scrape-google-shopping-prices-with-web-dataextraction-5a0a9b92406f
-https://www.youtube.com/watch?v=ng2o98k983k&t=2321s
-https://stackoverflow.com/questions/53189427/how-to-open-multiple-csv-files-from-a-folder-in-python
+Altres recursos:
+
+    - Web scraping for food price research - Judith Hille
+    - https://towardsdatascience.com/how-to-scrape-google-shopping-prices-with-web-dataextraction-5a0a9b92406f
+    - https://www.youtube.com/watch?v=ng2o98k983k&t=2321s
+    - https://stackoverflow.com/questions/53189427/how-to-open-multiple-csv-files-from-a-folder-in-python
