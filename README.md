@@ -1,9 +1,9 @@
 # PRA 1 - Web Scraping
-Repositori amb els arxius creats i obtinguts durant la pràctica 1
+Repositori amb els arxius creats i obtinguts durant la pràctica 1.
 
 # Descripció
 
-Hem realitzat aquest exercici pràctic en el marc de l'assignatura de Tipologia i cilce de Vida de les Dades, assignatura de caràcter obliatori corresponent al Màster en Ciència de Dades de la Universitat Oberta de Catalunya. Com a exemple de la pràctia de l'anomenat Web Scraping, hem realitzar un conjunt de scrips de Python emprant les llibreries de BeautifulSoup i requests per capturar la informació de productes continguda a la web del supermercat on-line de Bonpreu-Esclat. Hem afegit el camp "data", per poder realitzar anàlisis temporals de la evolució de preus, de la quantitat de productes ofertats o la durada de ofertes, per exemple.
+Hem realitzat aquest exercici pràctic en el marc de l'assignatura de Tipologia i cilce de Vida de les Dades, assignatura de caràcter obliatori corresponent al Màster en Ciència de Dades de la Universitat Oberta de Catalunya (UOC). Com a exemple de la pràctia de l'anomenat Web Scraping, hem realitzar un conjunt de scrips de Python emprant les llibreries de BeautifulSoup i requests per capturar la informació de productes continguda a la web del supermercat on-line de Bonpreu-Esclat. Hem afegit el camp "data", per poder realitzar anàlisis temporals de la evolució de preus, de la quantitat de productes ofertats o la durada de ofertes, per exemple.
 
 # Membres de l' equip
 
@@ -11,23 +11,26 @@ L' actividad ha estat realitzada de manera conjunta per Aleix Borrella Colomé i
 
 # Scripts:
 
-scripts/main.py: Primerament executa el "get_urls.py" per tenir una llista de totes les urls corresponents a categories finals. Un cop ja té totes les urls, executa "scraper.py" per capturar tota la informació referent als productes trobat. Finalment concatena tota la informació i ho guarda com a arxiu '.csv' amb data del dia en que s'ha realitzat la captura.
-scrips/get_urls.py: Navega a través de les categories de Bonpreu-Esclat cercant totes les urls amb categories finals, i retorna una llista amb totes les urls finals.
-scripts/scraper.py: Realitza web scraping a una url del supermercat on-line Bonpreu-Esclat i retorna un DataFrame amb la següent informació capturada:
-Primera categoria de classificació.
-Segona categoria de classificació.
-Tercera categoria de classificació.
-Quarta categoria de classificació.
-Cinquena categoria de classificació.
-Nom del producte.
-Preu del producte.
-La quantitat de producte.
-Cost del producte normalitzat (preu per quilo/litre).
-Si el producte està en oferta o promoció.
-Descripció de la promoció a la qual està subjecta el producte.
-URL del producte.
-Data en la que s'ha pres la mostra.
-scripts/concat.py: Busca tots els'.csv' que hi ha al mateix directori i els unifica en un sol dataset final. Si hi ha un '.csv' amb el nom designat al resultat l'ignorem.
+- *Scripts/main.py*: Primerament executa el "get_urls.py" per tenir una llista de totes les urls corresponents a categories finals. Un cop ja té totes les urls, executa "scraper.py" per capturar tota la informació referent als productes trobats. Finalment concatena tota la informació i ho guarda com a arxiu '.csv' amb data del dia en que s'ha realitzat la captura.
+
+- Scrips/get_urls.py: Navega a través de les categories de Bonpreu-Esclat cercant totes les urls amb categories finals, i retorna una llista amb totes les urls finals.
+
+- Scripts/scraper.py: Realitza web scraping a una url del supermercat on-line Bonpreu-Esclat i retorna un DataFrame amb la següent informació capturada:
+    - Primera categoria de classificació.
+    - Segona categoria de classificació.
+    - Tercera categoria de classificació.
+    - Quarta categoria de classificació.
+    - Cinquena categoria de classificació.
+    - Nom del producte.
+    - Preu del producte.
+    - La quantitat de producte.
+    - Cost del producte normalitzat (preu per quilo/litre).
+    - Si el producte està en oferta o promoció.
+    - Descripció de la promoció a la qual està subjecta el producte.
+    - URL del producte.
+    - Data en la que s'ha pres la mostra.
+
+- Scripts/concat.py: Busca tots els arxius '.csv' que hi ha al mateix directori i els unifica en un sol dataset final. Si hi ha un '.csv' amb el nom designat al resultat l'ignorem.
 
 # Arxius csv:
 
