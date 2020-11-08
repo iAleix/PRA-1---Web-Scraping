@@ -35,28 +35,28 @@ L'activitat ha estat realitzada de manera conjunta per Aleix Borrella Colomé i 
 # Arxius csv:
 
 Conté varies mostres preses durant la setmana del 02/11/2020 al 06/11/2020:
-    - Dataset/20201102_BP_dataset.csv: Mostra corresponent al 02/11/2020.
-    - Dataset/20201103_BP_dataset.csv: Mostra corresponent al 03/11/2020.
-    - Dataset/20201104_BP_dataset.csv: Mostra corresponent al 04/11/2020.
-    - Dataset/20201105_BP_dataset.csv: Mostra corresponent al 05/11/2020.
-    - Dataset/20201106_BP_dataset.csv: Mostra corresponent al 06/11/2020.
-    - Dataset/Datasets_setmanals.zip: Arxiu comprimit que conté els 5 arxius .csv anteriors per tal d'agilitzar-ne la descarrega
+- Dataset/20201102_BP_dataset.csv: Mostra corresponent al 02/11/2020.
+- Dataset/20201103_BP_dataset.csv: Mostra corresponent al 03/11/2020.
+- Dataset/20201104_BP_dataset.csv: Mostra corresponent al 04/11/2020.
+- Dataset/20201105_BP_dataset.csv: Mostra corresponent al 05/11/2020.
+- Dataset/20201106_BP_dataset.csv: Mostra corresponent al 06/11/2020.
+- Dataset/Datasets_setmanals.zip: Arxiu comprimit que conté els 5 arxius .csv anteriors per tal d'agilitzar-ne la descarrega
     
 Arxiu final obtingut executant concat.py (tots els arxius han d'estar al mateix directori):
-    - BP_dataset.csv
+- BP_dataset.csv
     
 # Recursos:
 
 Apunts proporcionats en l’aula:
 
-    - El llenguatge Python - David Masip Rodó
-    - Web Scraping - Laia Subirats Maté i Mireia Calvo González
-    - Web Scraping with Python – Chapter 2: Scraping the data – Lawson, R
-    - Automated Data Collection with R – S. Munzert, C. Rubba, P. Meibner i D. Nyhuis
+- El llenguatge Python - David Masip Rodó
+- Web Scraping - Laia Subirats Maté i Mireia Calvo González
+- Web Scraping with Python – Chapter 2: Scraping the data – Lawson, R
+- Automated Data Collection with R – S. Munzert, C. Rubba, P. Meibner i D. Nyhuis
 
 Altres recursos:
 
-    - Web scraping for food price research - Judith Hille
-    - https://towardsdatascience.com/how-to-scrape-google-shopping-prices-with-web-dataextraction-5a0a9b92406f
-    - https://www.youtube.com/watch?v=ng2o98k983k&t=2321s
-    - https://stackoverflow.com/questions/53189427/how-to-open-multiple-csv-files-from-a-folder-in-python
+- Web scraping for food price research - Judith Hille
+- https://towardsdatascience.com/how-to-scrape-google-shopping-prices-with-web-dataextraction-5a0a9b92406f
+- https://www.youtube.com/watch?v=ng2o98k983k&t=2321s
+- https://stackoverflow.com/questions/53189427/how-to-open-multiple-csv-files-from-a-folder-in-python
